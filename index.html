@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
-<section class="hero">
+<section class="hero" id="home">
     <a href="#" class="Logo">
         <img src="./images/projeco-logo.png" alt="Logotip">
     </a>
@@ -29,18 +29,18 @@
             <img src="./images/projeco-logo-black.png" alt="Logotip">
         </a>
         <nav class="header_menu">
-            <a href="#" class="header_menu_item">Home</a>
-            <a href="#" class="header_menu_item">About</a>
-            <a href="#" class="header_menu_item">Services</a>
-            <a href="#" class="header_menu_item">Work</a>
-            <a href="#" class="header_menu_item">Contact</a>
+            <a href="#home" class="header_menu_item">Home</a>
+            <a href="#about" class="header_menu_item">About</a>
+            <a href="#services" class="header_menu_item">Services</a>
+            <a href="#work" class="header_menu_item">Work</a>
+            <a href="#contact" class="header_menu_item">Contact</a>
         </nav>
         <div class="menu_btn">
             <span></span>
         </div>
     </div>
 </header>
-<section class="story">
+<section class="story" id="about">
     <div class="container">
         <h2 class="section_title">OUR STORY</h2>
         <div class="row">
@@ -56,18 +56,15 @@
                 <div class="row about_info_item_row">
                     <div class="col_4">
                         <div class="about_info_item we_plan">
-                            <p>WE
-                                PLAN</p>
+                            <p>WE PLAN</p>
                         </div>
                     </div>
                     <div class="col_4">
-                        <div class="about_info_item we_manage"><p>WE
-                            MANAGE</p>
+                        <div class="about_info_item we_manage"><p>WE MANAGE</p>
                         </div>
                     </div>
                     <div class="col_4">
-                        <div class="about_info_item we_build"><p>WE
-                            BUILD</p>
+                        <div class="about_info_item we_build"><p>WE BUILD</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +72,7 @@
         </div>
     </div>
 </section>
-<section class="main">
+<section class="main" id="services">
     <div class="container">
         <div class="row footer_social_inner">
             <div class="col_4">
@@ -118,7 +115,7 @@
         </div>
     </div>
 </section>
-<section class="get_in_touch">
+<section class="get_in_touch" id="work">
     <h2 class="get_in_subject">Want to build<br> something amazing?</h2>
     <button class="btn">Get in touch</button>
 
@@ -134,7 +131,7 @@
     </div>
 </section>
 
-<footer class="footer">
+<footer class="footer" id="contact">
     <div class="container">
         <div class="footer_wrap">
             <div class="footer_company">
@@ -170,8 +167,8 @@
                 <p class="footer_contact_info">213 Baker Street <br> Oriel City Kounty <br> 7000 KNW, <br>Kounty Name
                     <br>
                 </p>
-                <p class="footer_contact_info"><br>+23 994 233 4022</p>
-                <p class="footer_contact_info"><br>info@konstruct.com</p>
+                <a href="#" class="footer_contact_info">+23 994 233 4022</a>
+                <a href="#" class="footer_contact_info">info@konstruct.com</a>
             </div>
             <div class="footer_social">
                 <a href="#" class="fab fa-facebook-square"></a>
